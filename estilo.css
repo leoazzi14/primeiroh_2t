@@ -4,3 +4,13 @@ body {
 h1 {
   text-align: center;
 }
+.menuprincipal{
+  position: absolute;
+width: 100%;
+height: 100px;
+background: rgb(50, 19, 163);
+bottom: 0%;
+right: 0%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
