@@ -1,9 +1,11 @@
 body {
   background-color: blue
 }
-h1 {
+
+h1{
   text-align: center;
 }
+
 .menuprincipal{
   position: absolute;
 width: 100%;
