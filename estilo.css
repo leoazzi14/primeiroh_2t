@@ -1,18 +1,79 @@
 body {
-  background-color: blue
+  background-color: rgb(187, 187, 185);
+  margin: 0;
+  padding: 0;
 }
-
-h1{
+h1 {
   text-align: center;
 }
-
-.menuprincipal{
+.menuPrincipal {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 45px;
+   background: rgb(37, 54, 41);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+   color: black;
+   background: rgb(156, 228, 212);
+}
+#aguia {
+  width: 15%;
+}
+.caixaleo {
   position: absolute;
-width: 100%;
-height: 100px;
-background: rgb(50, 19, 163);
-bottom: 0%;
-right: 0%;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  top: 45px;
+  left: 0;
+  width: 90%;
+  height: 155px;
+  background: rgb(170, 201, 211);
+  margin: 20px;
+  border-width: 20px;
+  border-color: blue;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 35px;
+   background: black;
+   color: blanchedalmond;
+   display: flex;
+   justify-content: center;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
+}
+#leo {
+  width: 100%;
+}
+.logoleo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
 }
